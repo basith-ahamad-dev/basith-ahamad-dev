@@ -1,4 +1,4 @@
-﻿# Feb Week 1
-- Started CNN image classification model with MobileNetV2
+# Feb Week 
+- Started CNN image classification with MobileNetV2
 - Collected and labelled dataset (500 images)
 - Set up TensorFlow training environment
