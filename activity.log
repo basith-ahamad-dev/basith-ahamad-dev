@@ -2,3 +2,4 @@
 
 [2026-04-01 11:47:51 +0530] style: improve dark theme contrast and typography
 [2026-04-01 12:34:36 +0530] perf: optimize svg asset rendering and caching
+[2026-04-01 21:01:37 +0530] docs: clarify workflow instructions and configuration
