@@ -41,3 +41,4 @@
 [2026-04-10 16:52:44 +0530] style: adjust card padding and layout spacing
 [2026-04-10 22:48:16 +0530] style: improve dark theme contrast and typography
 [2026-04-11 12:36:28 +0530] docs: clarify workflow instructions and configuration
+[2026-04-11 13:17:28 +0530] refactor: clean up markdown formatting and asset links
