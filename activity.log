@@ -133,3 +133,4 @@
 [2026-05-04 17:49:53 +0530] docs: clarify workflow instructions and configuration
 [2026-05-05 10:07:58 +0530] perf: optimize svg asset rendering and caching
 [2026-05-05 11:23:38 +0530] docs: refine project overview and showcase highlights
+[2026-05-05 13:46:21 +0530] refactor: clean up markdown formatting and asset links
