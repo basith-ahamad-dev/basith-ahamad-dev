@@ -5,13 +5,6 @@
     <img src="./assets/banner.svg" alt="Basith Ahamad - Software Engineer Banner" width="100%" />
   </a>
 
-  <!-- Animated Typing Headline -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=1000&color=00F5D4&center=true&vCenter=true&width=750&lines=Software+Engineer+%7C+Web+%26+WordPress+Developer;First-Class+Honours+in+Computer+Science+🎓;Laravel+%2B+React+%2B+WordPress+CMS+Specialist;Automating+Workflows+with+n8n+%26+WhatsApp+Cloud+API;Integrating+AI+%26+Computer+Vision+into+Modern+Web+Apps" alt="Basith Ahamad - Dynamic Typing Header" />
-  </a>
-
-  <br/>
-
   <!-- Quick Social & Contact Badges -->
   <p align="center">
     <a href="https://www.linkedin.com/in/basith-ahamad" target="_blank">
