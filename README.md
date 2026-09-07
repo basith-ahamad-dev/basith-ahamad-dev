@@ -5,24 +5,32 @@
     <img src="./assets/banner.svg" alt="Basith Ahamad - Software Engineer Banner" width="100%" />
   </a>
 
+  <br/><br/>
+
   <!-- Quick Social & Contact Badges -->
   <p align="center">
     <a href="https://www.linkedin.com/in/basith-ahamad" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
     </a>
+    &nbsp;
     <a href="mailto:bashithahamed79@gmail.com">
       <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" />
     </a>
+    &nbsp;
     <a href="https://wa.me/94762657472" target="_blank">
       <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Badge" />
     </a>
+    &nbsp;
     <a href="https://github.com/basith-ahamad-dev">
       <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge" />
     </a>
+    &nbsp;
     <a href="#">
       <img src="https://img.shields.io/badge/Location-Sri%20Lanka%20🇱🇰-0070F3?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location Badge" />
     </a>
   </p>
+
+  <br/>
 
   <img src="./assets/line.svg" alt="Divider Line" width="100%" />
 
