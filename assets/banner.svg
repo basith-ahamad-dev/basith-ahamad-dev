@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="50%" stop-color="#0d1527" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <!-- Ambient Glowing Orbs -->
+    <radialGradient id="cyanGlow" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#00f5d4" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="purpleGlow" cx="80%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#7928ca" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#7928ca" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="blueGlow" cx="50%" cy="90%" r="45%">
+      <stop offset="0%" stop-color="#0070f3" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#0070f3" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Text Gradients -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#e2e8f0" />
+      <stop offset="100%" stop-color="#00f5d4" />
+    </linearGradient>
+    <linearGradient id="subGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.6" />
+    </linearGradient>
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.4" />
+      <circle cx="40" cy="40" r="1" fill="#38bdf8" fill-opacity="0.3" />
+    </pattern>
+
+    <!-- Filter for Shadows & Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'Courier New', Courier, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .pulse { animation: pulse 3s infinite alternate; }
+    @keyframes pulse {
+      0% { opacity: 0.3; }
+      100% { opacity: 0.7; }
+    }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="380" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Ambient Glows -->
+  <rect width="1200" height="380" rx="16" fill="url(#cyanGlow)" />
+  <rect width="1200" height="380" rx="16" fill="url(#purpleGlow)" />
+  <rect width="1200" height="380" rx="16" fill="url(#blueGlow)" />
+
+  <!-- Grid Overlay -->
+  <rect width="1200" height="380" rx="16" fill="url(#grid)" />
+
+  <!-- Border Outline -->
+  <rect x="1" y="1" width="1198" height="378" rx="15" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Decorative Circuit Lines / Accents -->
+  <g opacity="0.35">
+    <path d="M 60 50 L 160 50 L 190 80 L 320 80" fill="none" stroke="#00f5d4" stroke-width="1.5" stroke-dasharray="4 4" />
+    <circle cx="60" cy="50" r="3" fill="#00f5d4" />
+    <circle cx="320" cy="80" r="3" fill="#00f5d4" />
+
+    <path d="M 1140 330 L 1040 330 L 1010 300 L 880 300" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="4 4" />
+    <circle cx="1140" cy="330" r="3" fill="#a855f7" />
+    <circle cx="880" cy="300" r="3" fill="#a855f7" />
+  </g>
+
+  <!-- Terminal Status Pill Top-Left -->
+  <g transform="translate(60, 48)">
+    <rect width="210" height="32" rx="16" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
+    <circle cx="18" cy="16" r="5" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="32" y="21" fill="#94a3b8" font-size="12" font-weight="600" class="mono">STATUS: OPEN TO WORK</text>
+  </g>
+
+  <!-- Location & Timezone Pill Top-Right -->
+  <g transform="translate(930, 48)">
+    <rect width="210" height="32" rx="16" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
+    <text x="105" y="21" text-anchor="middle" fill="#94a3b8" font-size="12" font-weight="500" class="sans">🇱🇰 Gampaha, Sri Lanka</text>
+  </g>
+
+  <!-- Main Content Center -->
+  <!-- Monospace Subtitle Tag -->
+  <text x="600" y="132" text-anchor="middle" fill="#38bdf8" font-size="14" font-weight="600" letter-spacing="3" class="mono">
+    &lt;HELLO WORLD /&gt; I AM
+  </text>
+
+  <!-- Hero Name -->
+  <text x="600" y="196" text-anchor="middle" fill="url(#nameGrad)" font-size="54" font-weight="900" letter-spacing="1.5" class="sans" filter="drop-shadow(0 4px 16px rgba(0,245,212,0.25))">
+    BASITH AHAMAD
+  </text>
+
+  <!-- Role Subtitle -->
+  <text x="600" y="238" text-anchor="middle" fill="url(#subGrad)" font-size="20" font-weight="600" letter-spacing="0.5" class="sans">
+    Software Engineer • Full-Stack &amp; WordPress Developer • AI &amp; Automation
+  </text>
+
+  <!-- Highlight Badges / Chips Bottom -->
+  <g transform="translate(600, 290)">
+    <!-- Pill 1: Education -->
+    <g transform="translate(-390, 0)">
+      <rect width="230" height="42" rx="21" fill="url(#pillGrad)" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1" />
+      <text x="115" y="26" text-anchor="middle" fill="#e2e8f0" font-size="13" font-weight="600" class="sans">
+        🎓 First Class Honours (BSc)
+      </text>
+    </g>
+
+    <!-- Pill 2: Current Role -->
+    <g transform="translate(-130, 0)">
+      <rect width="260" height="42" rx="21" fill="url(#pillGrad)" stroke="#00f5d4" stroke-opacity="0.4" stroke-width="1" />
+      <text x="130" y="26" text-anchor="middle" fill="#e2e8f0" font-size="13" font-weight="600" class="sans">
+        💼 Assoc. Software Engineer @ Webxkey
+      </text>
+    </g>
+
+    <!-- Pill 3: Core Strengths -->
+    <g transform="translate(160, 0)">
+      <rect width="230" height="42" rx="21" fill="url(#pillGrad)" stroke="#a855f7" stroke-opacity="0.4" stroke-width="1" />
+      <text x="115" y="26" text-anchor="middle" fill="#e2e8f0" font-size="13" font-weight="600" class="sans">
+        ⚡ Laravel • WordPress • n8n • AI
+      </text>
+    </g>
+  </g>
+
+  <!-- Modern Corner Accents -->
+  <path d="M 20 50 L 20 20 L 50 20" fill="none" stroke="#00f5d4" stroke-width="2" opacity="0.6" />
+  <path d="M 1180 50 L 1180 20 L 1150 20" fill="none" stroke="#a855f7" stroke-width="2" opacity="0.6" />
+  <path d="M 20 330 L 20 360 L 50 360" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.6" />
+  <path d="M 1180 330 L 1180 360 L 1150 360" fill="none" stroke="#00f5d4" stroke-width="2" opacity="0.6" />
+</svg>
