@@ -200,46 +200,6 @@ timeline
 
 <br/>
 
-<div align="center">
-  <img src="./assets/line.svg" alt="Divider Line" width="100%" />
-</div>
-
-<br/>
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <a href="https://github.com/basith-ahamad-dev">
-          <img src="https://github-readme-stats.vercel.app/api?username=basith-ahamad-dev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f5d4&icon_color=38bdf8&text_color=94a3b8" alt="Basith's GitHub Stats" />
-        </a>
-      </td>
-      <td>
-        <a href="https://github.com/basith-ahamad-dev">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=basith-ahamad-dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f5d4&text_color=94a3b8" alt="Basith's Top Languages" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <a href="https://github.com/basith-ahamad-dev">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=basith-ahamad-dev&theme=tokyonight&hide_border=true&background=0d1117&ring=00f5d4&fire=ff007f&currStreakLabel=00f5d4" alt="Basith's Streak Stats" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="./assets/line.svg" alt="Divider Line" width="100%" />
-</div>
-
-<br/>
-
 ## 🤝 Let's Connect & Build Together!
 
 I'm always open to discussing new engineering opportunities, freelance projects, open-source collaborations, or innovative startup ideas.
@@ -262,7 +222,5 @@ I'm always open to discussing new engineering opportunities, freelance projects,
 
 <div align="center">
   <p><i>"Transforming ideas into scalable code, elegant user experiences, and automated workflows."</i></p>
-  
-  <!-- Animated Footer Wave -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:00f5d4,50:38bdf8,100:7928ca&height=90&section=footer" width="100%" alt="Footer Wave" />
+  <img src="./assets/line.svg" alt="Footer Line" width="100%" />
 </div>
