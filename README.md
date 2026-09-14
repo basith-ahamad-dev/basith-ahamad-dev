@@ -9,7 +9,7 @@
 
   <!-- Quick Social Badges -->
   <p align="center">
-    <a href="https://www.linkedin.com/in/basith-ahamad" target="_blank">
+    <a href="www.linkedin.com/in/basith-ahamad-872195413" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     &nbsp;
