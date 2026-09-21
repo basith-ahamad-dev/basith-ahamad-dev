@@ -19,7 +19,7 @@
     <tr>
       <td>
         <a href="https://github.com/basith-ahamad-dev">
-          <img src="https://github-stats-extended.vercel.app/api?username=basith-ahamad-dev&rank_icon=github&custom_title=Basith%20Ahamad%27s%20GitHub%20Stats%20(Public%20%2B%20Private)&show_icons=true&include_all_commits=true&theme=codeSTACKr" alt="Basith Ahamad's GitHub Stats" />
+          <img src="https://github-stats-extended.vercel.app/api?username=basith-ahamad-dev&rank_icon=github&custom_title=Basith%20Ahamad%27s%20GitHub%20Stats&show_icons=true&include_all_commits=true&theme=codeSTACKr&v=2" alt="Basith Ahamad's GitHub Stats" />
         </a>
       </td>
       <td>
