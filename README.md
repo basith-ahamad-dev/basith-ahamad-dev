@@ -13,17 +13,20 @@
 
 <div align="center">
 
-  <a href="https://github.com/basith-ahamad-dev">
-    <img src="https://github-stats-extended.vercel.app/api?username=basith-ahamad-dev&rank_icon=github&custom_title=Basith%20Ahamad%27s%20Public%20Stats&show_icons=true&include_all_commits=true&theme=codeSTACKr" alt="Basith Ahamad's Public Stats" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/basith-ahamad-dev">
-    <img src="https://github-stats-extended.vercel.app/api?username=basith-ahamad-dev&custom_title=Basith%20Ahamad%27s%20Private%20Stats&show_icons=true&include_all_commits=true&theme=codeSTACKr" alt="Basith Ahamad's Private Stats" />
-  </a>
-  <br/>
-  <a href="https://github.com/basith-ahamad-dev">
-    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=basith-ahamad-dev&layout=compact&theme=codeSTACKr" alt="Most Used Languages" />
-  </a>
+  <table border="0">
+    <tr>
+      <td>
+        <a href="https://github.com/basith-ahamad-dev">
+          <img src="https://github-stats-extended.vercel.app/api?username=basith-ahamad-dev&rank_icon=github&custom_title=Basith%20Ahamad%27s%20GitHub%20Stats%20(Public%20%2B%20Private)&show_icons=true&include_all_commits=true&theme=codeSTACKr" alt="Basith Ahamad's GitHub Stats (Public + Private)" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/basith-ahamad-dev">
+          <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=basith-ahamad-dev&layout=compact&theme=codeSTACKr" alt="Most Used Languages" />
+        </a>
+      </td>
+    </tr>
+  </table>
 
   <br/><br/>
 
