@@ -10,10 +10,8 @@
 <br/>
 <div align="center">
 
-  <h2>
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart Increasing" width="28" height="28" style="vertical-align: -4px;" />
-    &nbsp;GitHub Stats
-  </h2>
+  <img src="https://capsule-render.vercel.app/api?type=transparent&color=388bfd&text=%F0%9F%93%88%20GitHub%20Stats&fontSize=24&fontColor=ffffff&height=40" alt="GitHub Stats" />
+  <br/>
 
   <table border="0">
     <tr>
@@ -30,7 +28,7 @@
     </tr>
   </table>
 
-  <br/><br/>
+  <br/>
 
   <!-- Snake Game Contribution Animation -->
   <picture>
