@@ -1,49 +1,40 @@
 <div align="center">
 
-  <!-- Header Banner -->
+  <!-- Dynamic Typing Header -->
   <a href="https://github.com/basith-ahamad-dev">
-    <img src="./assets/banner.svg" alt="Basith Ahamad - Software Engineer" width="100%" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=388BFD&center=true&vCenter=true&width=600&height=50&lines=Hi+there,+I'm+Basith+Ahamad;Associate+Software+Engineer;Building+Scalable+Web+Apps+%26+AI+Automations;PHP+•+Laravel+•+Python+•+FastAPI" alt="Basith Ahamad - Software Engineer" />
+  </a>
+
+</div>
+
+<br/>
+
+### 📈 GitHub Stats
+
+<div align="center">
+
+  <a href="https://github.com/basith-ahamad-dev">
+    <img src="https://github-stats-extended.vercel.app/api?username=basith-ahamad-dev&show_icons=true&rank_icon=github&theme=transparent&hide_border=true&title_color=388bfd&icon_color=388bfd&text_color=c9d1d9&include_all_commits=true&custom_title=Basith%20Ahamad's%20GitHub%20Stats" alt="Basith Ahamad's GitHub Stats" />
+  </a>
+  <br/>
+  <a href="https://github.com/basith-ahamad-dev">
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=basith-ahamad-dev&layout=compact&theme=transparent&hide_border=true&title_color=388bfd&text_color=c9d1d9" alt="Most Used Languages" />
   </a>
 
   <br/><br/>
 
-  <!-- Quick Social Badges -->
-  <p align="center">
-    <a href="www.linkedin.com/in/basith-ahamad-872195413" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    &nbsp;
-    <a href="mailto:bashithahamed79@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    &nbsp;
-    <a href="https://wa.me/94762657472" target="_blank">
-      <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
-    </a>
-    &nbsp;
-    <a href="https://github.com/basith-ahamad-dev">
-      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-    </a>
-    &nbsp;
-    <a href="#">
-      <img src="https://img.shields.io/badge/Sri%20Lanka%20🇱🇰-0070F3?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
-    </a>
-  </p>
-
-  <img src="./assets/line.svg" alt="Divider Line" width="100%" />
+  <!-- Snake Game Contribution Animation -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/basith-ahamad-dev/basith-ahamad-dev/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/basith-ahamad-dev/basith-ahamad-dev/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake Animation" src="./assets/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
 
 </div>
 
-### ⚡ Quick Intro
-
-- 💼 **Associate Software Engineer** at **Webxkey** — building custom WordPress websites, Laravel business platforms (POS & inventory), and automated workflows.
-- 🎓 **First-Class Honours** in BSc (Hons) Computer Science (*University of Bedfordshire, UK*).
-- 🤖 **AI & Automations** — integrating deep learning computer vision (**MobileNetV2**, **OpenCV**, **FastAPI**) and business automations (**n8n**, **WhatsApp Cloud API**).
-- 📍 Based in **Gampaha, Sri Lanka** • Open to collaborations and freelance projects.
-
 ---
 
-### 🛠️ Tech Stack
+### 🛠️ Tech
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=php,laravel,wordpress,mysql,js,react,python,fastapi,flask,tailwind,bootstrap,git,github,figma&perline=14" alt="Tech Stack" />
@@ -70,27 +61,41 @@
 
 ---
 
-<div align="center">
+### 🌐 Connect
 
-  ### 🤝 Let's Connect!
+<div align="center">
 
   <p>Always open to exciting opportunities, innovative ideas, and tech discussions.</p>
 
   <p>
-    <a href="https://www.linkedin.com/in/basith-ahamad" target="_blank">
-      <img src="https://img.shields.io/badge/Connect%20on-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <a href="https://github.com/basith-ahamad-dev" target="_blank">
+      <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
     </a>
     &nbsp;
-    <a href="mailto:bashithahamed79@gmail.com">
-      <img src="https://img.shields.io/badge/Send%20an-Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+    <a href="https://www.linkedin.com/in/basith-ahamad-872195413" target="_blank">
+      <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     &nbsp;
-    <a href="https://wa.me/94762657472" target="_blank">
-      <img src="https://img.shields.io/badge/Chat%20on-WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+    <a href="https://github.com/basith-ahamad-dev" target="_blank">
+      <img src="https://img.shields.io/badge/PORTFOLIO-0070F3?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
     </a>
   </p>
 
-  <br/>
-  <img src="./assets/line.svg" alt="Footer Line" width="100%" />
+  <p>
+    <a href="mailto:bashithahamed79@gmail.com">
+      <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    &nbsp;
+    <a href="https://wa.me/94762657472" target="_blank">
+      <img src="https://img.shields.io/badge/WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+    </a>
+  </p>
+
+  <br/><br/>
+  <p><i>"Transforming ideas into scalable code, elegant user experiences, and automated workflows."</i></p>
+
+  <!-- Animated Footer Wave -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0d1117,50:388bfd,100:161b22&height=90&section=footer" width="100%" alt="Footer Wave" />
 
 </div>
+
