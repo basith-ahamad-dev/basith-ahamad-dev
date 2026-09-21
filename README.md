@@ -2,7 +2,7 @@
 
   <!-- Dynamic Typing Header -->
   <a href="https://github.com/basith-ahamad-dev">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=388BFD&center=true&vCenter=true&width=600&height=50&lines=Hi+there,+I'm+Basith+Ahamad;Associate+Software+Engineer;Building+Scalable+Web+Apps+%26+AI+Automations;PHP+•+Laravel+•+Python+•+FastAPI" alt="Basith Ahamad - Software Engineer" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=388BFD&center=true&vCenter=true&width=650&height=50&lines=Hi+there,+I'm+Basith+Ahamad;Associate+Software+Engineer;Building+Scalable+Web+Apps+%26+AI+Automations;PHP+%E2%80%A2+Laravel+%E2%80%A2+Python+%E2%80%A2+FastAPI" alt="Basith Ahamad - Software Engineer" />
   </a>
 
 </div>
@@ -14,11 +14,15 @@
 <div align="center">
 
   <a href="https://github.com/basith-ahamad-dev">
-    <img src="https://github-stats-extended.vercel.app/api?username=basith-ahamad-dev&show_icons=true&rank_icon=github&theme=transparent&hide_border=true&title_color=388bfd&icon_color=388bfd&text_color=c9d1d9&include_all_commits=true&custom_title=Basith%20Ahamad's%20GitHub%20Stats" alt="Basith Ahamad's GitHub Stats" />
+    <img src="https://github-stats-extended.vercel.app/api?username=basith-ahamad-dev&rank_icon=github&custom_title=Basith%20Ahamad%27s%20Public%20Stats&show_icons=true&include_all_commits=true&theme=codeSTACKr" alt="Basith Ahamad's Public Stats" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/basith-ahamad-dev">
+    <img src="https://github-stats-extended.vercel.app/api?username=basith-ahamad-dev&custom_title=Basith%20Ahamad%27s%20Private%20Stats&show_icons=true&include_all_commits=true&theme=codeSTACKr" alt="Basith Ahamad's Private Stats" />
   </a>
   <br/>
   <a href="https://github.com/basith-ahamad-dev">
-    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=basith-ahamad-dev&layout=compact&theme=transparent&hide_border=true&title_color=388bfd&text_color=c9d1d9" alt="Most Used Languages" />
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=basith-ahamad-dev&layout=compact&theme=codeSTACKr" alt="Most Used Languages" />
   </a>
 
   <br/><br/>
