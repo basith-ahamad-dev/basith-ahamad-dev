@@ -83,12 +83,10 @@
       <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     &nbsp;
-    <a href="https://github.com/basith-ahamad-dev" target="_blank">
+    <a href="https://basith-ahamad.vercel.app/" target="_blank">
       <img src="https://img.shields.io/badge/PORTFOLIO-0070F3?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
     </a>
-  </p>
-
-  <p>
+    &nbsp;
     <a href="mailto:bashithahamed79@gmail.com">
       <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
