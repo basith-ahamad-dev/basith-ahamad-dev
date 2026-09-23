@@ -17,12 +17,12 @@
     <tr>
       <td>
         <a href="https://github.com/basith-ahamad-dev">
-          <img src="https://raw.githubusercontent.com/basith-ahamad-dev/basith-ahamad-dev/output/github-stats.svg" alt="Basith Ahamad's GitHub Stats" />
+          <img src="https://raw.githubusercontent.com/basith-ahamad-dev/basith-ahamad-dev/output/github-stats.svg?v=2" alt="Basith Ahamad's GitHub Stats" />
         </a>
       </td>
       <td>
         <a href="https://github.com/basith-ahamad-dev">
-          <img src="https://raw.githubusercontent.com/basith-ahamad-dev/basith-ahamad-dev/output/top-langs.svg" alt="Most Used Languages" />
+          <img src="https://raw.githubusercontent.com/basith-ahamad-dev/basith-ahamad-dev/output/top-langs.svg?v=2" alt="Most Used Languages" />
         </a>
       </td>
     </tr>
@@ -32,9 +32,9 @@
 
   <!-- Snake Game Contribution Animation -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/basith-ahamad-dev/basith-ahamad-dev/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/basith-ahamad-dev/basith-ahamad-dev/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Snake Animation" src="./assets/github-contribution-grid-snake-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/basith-ahamad-dev/basith-ahamad-dev/output/github-contribution-grid-snake-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/basith-ahamad-dev/basith-ahamad-dev/output/github-contribution-grid-snake.svg?v=2" />
+    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/basith-ahamad-dev/basith-ahamad-dev/output/github-contribution-grid-snake-dark.svg?v=2" width="100%" />
   </picture>
 
 </div>
