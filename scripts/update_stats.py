@@ -21,11 +21,11 @@ def update_stats():
     query = f"""query {{
       user(login: "{username}") {{
         thisYear: contributionsCollection(from: "{from_date}", to: "{to_date}") {{
-          contributionCalendar {{
-            totalContributions
-          }}
-        }}
-        rollingYear: contributionsCollection {{
+          restrictedContributionsCount
+          totalCommitContributions
+          totalIssueContributions
+          totalPullRequestContributions
+          totalPullRequestReviewContributions
           contributionCalendar {{
             totalContributions
           }}
@@ -46,12 +46,22 @@ def update_stats():
         with urllib.request.urlopen(req) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             user_data = data.get("data", {}).get("user", {})
-            this_year_count = user_data.get("thisYear", {}).get("contributionCalendar", {}).get("totalContributions")
-            rolling_count = user_data.get("rollingYear", {}).get("contributionCalendar", {}).get("totalContributions")
+            ty = user_data.get("thisYear", {})
+            
+            calendar_total = ty.get("contributionCalendar", {}).get("totalContributions", 0)
+            restricted = ty.get("restrictedContributionsCount", 0)
+            commits = ty.get("totalCommitContributions", 0)
+            prs = ty.get("totalPullRequestContributions", 0)
+            issues = ty.get("totalIssueContributions", 0)
+            reviews = ty.get("totalPullRequestReviewContributions", 0)
 
-            print(f"This year ({current_year}): {this_year_count}, Rolling year: {rolling_count}")
-            candidates = [c for c in [this_year_count, rolling_count] if c is not None]
-            count = max(candidates) if candidates else None
+            # GitHub profile "X contributions in [Year]" sums public activity + restricted (private) activity
+            combined_total = calendar_total + restricted
+            components_total = commits + restricted + prs + issues + reviews
+            count = max(combined_total, components_total, calendar_total)
+
+            print(f"Stats breakdown - Calendar: {calendar_total}, Restricted: {restricted}, Commits: {commits}")
+            print(f"Calculated profile total contributions: {count}")
             
             if count is not None:
                 print(f"Fetched real total contributions from GitHub API: {count}")
