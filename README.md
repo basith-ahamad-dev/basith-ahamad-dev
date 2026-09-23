@@ -17,12 +17,12 @@
     <tr>
       <td>
         <a href="https://github.com/basith-ahamad-dev">
-          <img src="https://github-stats-extended.vercel.app/api?username=basith-ahamad-dev&rank_icon=github&custom_title=Basith%20Ahamad%27s%20GitHub%20Stats&show_icons=true&include_all_commits=true&theme=codeSTACKr&v=2" alt="Basith Ahamad's GitHub Stats" />
+          <img src="https://raw.githubusercontent.com/basith-ahamad-dev/basith-ahamad-dev/output/github-stats.svg" alt="Basith Ahamad's GitHub Stats" />
         </a>
       </td>
       <td>
         <a href="https://github.com/basith-ahamad-dev">
-          <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=basith-ahamad-dev&layout=compact&theme=codeSTACKr" alt="Most Used Languages" />
+          <img src="https://raw.githubusercontent.com/basith-ahamad-dev/basith-ahamad-dev/output/top-langs.svg" alt="Most Used Languages" />
         </a>
       </td>
     </tr>
