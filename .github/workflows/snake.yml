@@ -24,12 +24,14 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.SNAKE_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Generate Fresh GitHub Stats & Language SVGs
         run: |
           mkdir -p dist
-          curl -s "https://github-stats-extended.vercel.app/api?username=basith-ahamad-dev&rank_icon=github&custom_title=Basith%20Ahamad%27s%20GitHub%20Stats&show_icons=true&include_all_commits=true&theme=codeSTACKr&t=$(date +%s)" -o dist/github-stats.svg
-          curl -s "https://github-stats-extended.vercel.app/api/top-langs/?username=basith-ahamad-dev&layout=compact&theme=codeSTACKr&t=$(date +%s)" -o dist/top-langs.svg
+          curl -s "https://github-stats-extended.vercel.app/api?username=basith-ahamad-dev&rank_icon=github&custom_title=Basith%20Ahamad%27s%20GitHub%20Stats&show_icons=true&include_all_commits=true&count_private=true&theme=codeSTACKr&t=$(date +%s)" -o dist/github-stats.svg
+          curl -s "https://github-stats-extended.vercel.app/api/top-langs/?username=basith-ahamad-dev&layout=compact&theme=codeSTACKr&count_private=true&t=$(date +%s)" -o dist/top-langs.svg
 
       - name: Push SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v4
