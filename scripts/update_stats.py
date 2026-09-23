@@ -19,13 +19,25 @@ def update_stats():
     to_date = f"{current_year}-12-31T23:59:59Z"
 
     query = f"""query {{
+      viewer {{
+        thisYear: contributionsCollection(from: "{from_date}", to: "{to_date}") {{
+          contributionCalendar {{
+            totalContributions
+          }}
+        }}
+        rollingYear: contributionsCollection {{
+          contributionCalendar {{
+            totalContributions
+          }}
+        }}
+      }}
       user(login: "{username}") {{
         thisYear: contributionsCollection(from: "{from_date}", to: "{to_date}") {{
-          restrictedContributionsCount
-          totalCommitContributions
-          totalIssueContributions
-          totalPullRequestContributions
-          totalPullRequestReviewContributions
+          contributionCalendar {{
+            totalContributions
+          }}
+        }}
+        rollingYear: contributionsCollection {{
           contributionCalendar {{
             totalContributions
           }}
@@ -45,23 +57,20 @@ def update_stats():
         )
         with urllib.request.urlopen(req) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-            user_data = data.get("data", {}).get("user", {})
-            ty = user_data.get("thisYear", {})
-            
-            calendar_total = ty.get("contributionCalendar", {}).get("totalContributions", 0)
-            restricted = ty.get("restrictedContributionsCount", 0)
-            commits = ty.get("totalCommitContributions", 0)
-            prs = ty.get("totalPullRequestContributions", 0)
-            issues = ty.get("totalIssueContributions", 0)
-            reviews = ty.get("totalPullRequestReviewContributions", 0)
+            viewer_data = data.get("data", {}).get("viewer") or {}
+            user_data = data.get("data", {}).get("user") or {}
 
-            # GitHub profile "X contributions in [Year]" sums public activity + restricted (private) activity
-            combined_total = calendar_total + restricted
-            components_total = commits + restricted + prs + issues + reviews
-            count = max(combined_total, components_total, calendar_total)
+            candidates = [
+                viewer_data.get("thisYear", {}).get("contributionCalendar", {}).get("totalContributions"),
+                viewer_data.get("rollingYear", {}).get("contributionCalendar", {}).get("totalContributions"),
+                user_data.get("thisYear", {}).get("contributionCalendar", {}).get("totalContributions"),
+                user_data.get("rollingYear", {}).get("contributionCalendar", {}).get("totalContributions"),
+            ]
+            valid_candidates = [c for c in candidates if c is not None and c > 0]
+            count = max(valid_candidates) if valid_candidates else None
 
-            print(f"Stats breakdown - Calendar: {calendar_total}, Restricted: {restricted}, Commits: {commits}")
-            print(f"Calculated profile total contributions: {count}")
+            print(f"Candidates from viewer & user: {candidates}")
+            print(f"Selected total contributions: {count}")
             
             if count is not None:
                 print(f"Fetched real total contributions from GitHub API: {count}")
