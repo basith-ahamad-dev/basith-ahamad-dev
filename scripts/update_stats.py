@@ -3,6 +3,8 @@ import re
 import json
 import urllib.request
 
+from datetime import datetime
+
 def update_stats():
     token = os.environ.get("GITHUB_TOKEN", "")
     username = os.environ.get("GITHUB_USERNAME", "basith-ahamad-dev")
@@ -12,9 +14,18 @@ def update_stats():
         print(f"SVG file {svg_path} not found.")
         return
 
+    current_year = datetime.now().year
+    from_date = f"{current_year}-01-01T00:00:00Z"
+    to_date = f"{current_year}-12-31T23:59:59Z"
+
     query = f"""query {{
       user(login: "{username}") {{
-        contributionsCollection {{
+        thisYear: contributionsCollection(from: "{from_date}", to: "{to_date}") {{
+          contributionCalendar {{
+            totalContributions
+          }}
+        }}
+        rollingYear: contributionsCollection {{
           contributionCalendar {{
             totalContributions
           }}
@@ -34,7 +45,13 @@ def update_stats():
         )
         with urllib.request.urlopen(req) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-            count = data.get("data", {}).get("user", {}).get("contributionsCollection", {}).get("contributionCalendar", {}).get("totalContributions")
+            user_data = data.get("data", {}).get("user", {})
+            this_year_count = user_data.get("thisYear", {}).get("contributionCalendar", {}).get("totalContributions")
+            rolling_count = user_data.get("rollingYear", {}).get("contributionCalendar", {}).get("totalContributions")
+
+            print(f"This year ({current_year}): {this_year_count}, Rolling year: {rolling_count}")
+            candidates = [c for c in [this_year_count, rolling_count] if c is not None]
+            count = max(candidates) if candidates else None
             
             if count is not None:
                 print(f"Fetched real total contributions from GitHub API: {count}")
