@@ -20,18 +20,21 @@
 
 </div>
 
-**Welcome to My Digital Universe!** 🌌✨
+🌏 **Based in Sri Lanka 🇱🇰**
 
-- 🌏 **Location**: Sri Lanka 🇱🇰 *(The Pearl of the Indian Ocean)*
-- 🔥 **Passionate about**: Full-Stack Web Development 💻, AI & Computer Vision 🤖, Workflow Automations ⚙️ & Scalable Systems 🚀
-- 🚀 **Currently working on**: [HERIT-EDGE](https://github.com/basith-ahamad-dev) 🛍️ *(AI-powered multi-vendor e-commerce with visual product search)*, [DetectX](https://github.com/basith-ahamad-dev) 🌿 *(Plant disease classification)*
-- 🌱 **Learning**: Advanced Deep Learning & Generative AI 🧠, Next.js & Serverless ⚡, Modern UI Architecture 🎨
-- 🔬 **Interested in**: Computer Vision, Automation Workflows (n8n), Intelligent Web Apps, and Scalable Backend Architectures ⚙️
-- 💬 **Ask me about**: PHP, Laravel, Python, FastAPI, React, AI/ML Integrations, or *"Why do programmers prefer dark mode?"* 😄
-- 📫 **Reach me**: [bashithahamed79@gmail.com](mailto:bashithahamed79@gmail.com) 📬
-- ⚡ **Fun fact**: I'm a night owl 🦉 who turns caffeine into clean code! *(Coffee is my debugging fluid)* ☕
+💻 Software Engineer focused on **Full-Stack Development & AI/ML**
 
-> *"Transforming ideas into scalable code, elegant user experiences, and automated workflows."* 💡
+🤖 Building **AI-powered applications, Computer Vision solutions and intelligent automation workflows**
+
+⚙️ Experienced with **Python, FastAPI, Laravel, React, Next.js and modern web technologies**
+
+🧠 Exploring **Generative AI, LLMs, AI Agents and scalable system architectures**
+
+🎨 Interested in **UI/UX, product development and transforming ideas into practical digital products**
+
+<br/>
+
+> 🚀 *Building software that is intelligent, scalable and useful.*
 
 <div align="center">
 
@@ -97,9 +100,9 @@
 
 - **🚀 Languages**: PHP, Python, JavaScript (Node.js)
 - **🏗️ Frameworks**: Laravel, FastAPI, Flask
-- **🗄️ Databases**: MySQL, PostgreSQL, MongoDB, Redis
-- **🌐 APIs & Architecture**: RESTful APIs, Webhooks, WhatsApp Cloud API, Microservices
-- **☁️ Platforms & Hosting**: Vercel, AWS, Railway, cPanel / VPS
+- **🗄️ Databases**: MySQL, PostgreSQL, MongoDB
+- **🌐 APIs & Architecture**: APIs, Webhooks, WhatsApp Cloud API, Microservices
+- **☁️ Platforms & Hosting**: Vercel, AWS , cPanel
 
 ### 🧠 AI, Automation & Computer Vision
 
