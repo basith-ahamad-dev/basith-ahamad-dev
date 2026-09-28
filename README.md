@@ -44,80 +44,20 @@
 
 ---
 
-## 📊 GitHub Analytics Matrix
+## 📊 GitHub Analytics
 
 <div align="center">
   
 ### 🎯 GitHub Stats in Holographic Style
 
-<img height="180em" src="https://github-stats-extended.vercel.app/api?username=basith-ahamad-dev&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&custom_title=⚡%20GitHub%20Stats&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" />
-<img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=basith-ahamad-dev&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&custom_title=🔥%20Most%20Used%20Languages&title_color=ff7b72&text_color=c9d1d9&bg_color=0d1117" alt="Most Used Languages" />
+<a href="https://github.com/basith-ahamad-dev">
+  <img height="180em" src="https://raw.githubusercontent.com/basith-ahamad-dev/basith-ahamad-dev/output/github-stats.svg?v=2" alt="Basith Ahamad's GitHub Stats" />
+</a>
+<a href="https://github.com/basith-ahamad-dev">
+  <img height="180em" src="https://raw.githubusercontent.com/basith-ahamad-dev/basith-ahamad-dev/output/top-langs.svg?v=2" alt="Most Used Languages" />
+</a>
 
 </div>
-
-<div align="center">
-  
-### 🔥 Streak Stats with Neon Effects
-
-<img src="https://streak-stats.demolab.com/?user=basith-ahamad-dev&theme=tokyonight-duo&hide_border=true&stroke=58a6ff&background=0d1117&ring=58a6ff&fire=ff7b72&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=7c8db5" alt="GitHub Streak" />
-
-</div>
-
----
-
-## 📈 Coding Analytics Dashboard
-
-<!--START_SECTION:waka-->
-![⏰ Code Time](https://img.shields.io/badge/⏰_Code_Time-280+_hrs-blue?style=for-the-badge&logo=wakatime&logoColor=white&labelColor=000000)
-![👀 Profile Views](https://komarev.com/ghpvc/?username=basith-ahamad-dev&label=👀_Profile_Views&style=for-the-badge&color=blue&labelColor=000000)
-![💻 Lines of Code](https://img.shields.io/badge/💻_From_Hello_World_I've_Written-650K+_lines_of_code-007ec6?style=for-the-badge&logoColor=white&labelColor=555)
-
-**🐱 My GitHub Data**
-
-> 📦 9+ Public Repositories
->
-> 🏆 640+ Total Contributions
->
-> 💼 Open for Opportunities & Freelance
->
-> 📜 9 Public Repositories
->
-> 🔑 Full-Stack & AI Focus
->
-
-**I'm a Night 🦉**
-
-```text
-🌞 Morning                145 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.50 % 
-🌆 Daytime                320 commits         ███████░░░░░░░░░░░░░░░░░░   28.10 % 
-🌃 Evening                435 commits         █████████░░░░░░░░░░░░░░░░   38.20 % 
-🌙 Night                  240 commits         █████░░░░░░░░░░░░░░░░░░░░   21.20 % 
-```
-
-📅 **I'm Most Productive on Weekends & Evenings**
-
-```text
-Monday                   142 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.10 % 
-Tuesday                  125 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.50 % 
-Wednesday                168 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.50 % 
-Thursday                 152 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.00 % 
-Friday                   115 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   10.60 % 
-Saturday                 205 commits         █████░░░░░░░░░░░░░░░░░░░░   18.90 % 
-Sunday                   178 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.40 % 
-```
-
-📊 **Core Stack Breakdown**
-
-**I Mostly Code in PHP & Python**
-
-```text
-PHP                      14 repos            ████████░░░░░░░░░░░░░░░░░   35.00 % 
-Python                   11 repos            ██████░░░░░░░░░░░░░░░░░░░   27.50 % 
-JavaScript               8 repos             █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
-HTML/CSS                 5 repos             ███░░░░░░░░░░░░░░░░░░░░░░   12.50 % 
-SQL                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   05.00 % 
-```
-<!--END_SECTION:waka-->
 
 ---
 
@@ -132,13 +72,14 @@ SQL                      2 repos             █░░░░░░░░░░�
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,bootstrap,threejs&theme=dark&perline=10" alt="Frontend Frameworks" />
 
 ### 🚀 Backend & Database Galaxy
-<img src="https://skillicons.dev/icons?i=php,laravel,fastapi,flask,python,nodejs,express,mysql,postgres,mongodb,redis&theme=dark&perline=12" alt="Backend Stack" />
+<img src="https://skillicons.dev/icons?i=php,laravel,fastapi,flask,python,nodejs,mysql,postgres,mongodb,redis&theme=dark&perline=11" alt="Backend Stack" />
 
 ### 🎨 Design & Graphics Tools
-<img src="https://skillicons.dev/icons?i=figma,photoshop&theme=dark&perline=4" alt="Design Tools" />
+<a href="https://figma.com" target="_blank"><img src="https://skillicons.dev/icons?i=figma&theme=dark" alt="Figma" /></a>
+<a href="https://canva.com" target="_blank"><img src="assets/canva.svg" width="48" height="48" alt="Canva" /></a>
 
 ### 🛠️ Development Environment
-<img src="https://skillicons.dev/icons?i=vscode,git,github,postman,npm,vite&theme=dark&perline=10" alt="Dev Tools" />
+<img src="https://skillicons.dev/icons?i=vscode,git,github,npm,vite&theme=dark&perline=10" alt="Dev Tools" />
 
 </div>
 
@@ -150,12 +91,12 @@ SQL                      2 repos             █░░░░░░░░░░�
 - **⚡ Frameworks & Libraries**: React.js, Next.js
 - **🎨 Styling**: Tailwind CSS, Bootstrap, Modern CSS3
 - **🎮 Graphics & 3D**: Three.js, WebGL, 3D Interactive Canvas
-- **🛠️ Tools & UI/UX**: Figma, Responsive Wireframing
+- **🛠️ Tools & UI/UX**: Figma, Canva, Responsive Wireframing
 
 ### ⚙️ Backend Dimension  
 
 - **🚀 Languages**: PHP, Python, JavaScript (Node.js)
-- **🏗️ Frameworks**: Laravel, FastAPI, Flask, Express.js
+- **🏗️ Frameworks**: Laravel, FastAPI, Flask
 - **🗄️ Databases**: MySQL, PostgreSQL, MongoDB, Redis
 - **🌐 APIs & Architecture**: RESTful APIs, Webhooks, WhatsApp Cloud API, Microservices
 - **☁️ Platforms & Hosting**: Vercel, AWS, Railway, cPanel / VPS
