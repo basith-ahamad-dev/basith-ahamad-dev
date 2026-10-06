@@ -1,3 +1,0 @@
-- Migrated MySQL tables to PostgreSQL
-- Wrote migration scripts and validated data integrity
-- Updated environment configs on AWS EC2
