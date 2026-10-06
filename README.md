@@ -14,7 +14,7 @@
 
 <div align="center">
   
-[![Profile Views](https://komarev.com/ghpvc/?username=basith-ahamad-dev&label=🔥_Profile_Views&style=for-the-badge&color=ff6b6b&labelColor=000000)](https://github.com/basith-ahamad-dev)
+[![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbasith-ahamad-dev&count_bg=%23FF6B6B&title_bg=%23000000&icon=github&icon_color=%23FFFFFF&title=🔥+Profile+Views&edge_flat=false)](https://github.com/basith-ahamad-dev)
 ![GitHub followers](https://img.shields.io/github/followers/basith-ahamad-dev?label=👥_Followers&style=for-the-badge&color=4c51bf&logo=github&logoColor=white&labelColor=000000)
 ![GitHub User's stars](https://img.shields.io/github/stars/basith-ahamad-dev?label=⭐_Stars&style=for-the-badge&color=fbbf24&logo=star&logoColor=white&labelColor=000000)
 
