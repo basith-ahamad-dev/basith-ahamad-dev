@@ -5,6 +5,3 @@ __pycache__/
 
 # raw photo stays local (banner/portrait.py reads it); only the dithered result is published
 assets/Professtional_Photo.png
-
-# reference PDFs
-*.pdf
