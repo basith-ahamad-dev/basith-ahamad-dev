@@ -69,3 +69,13 @@ Software Engineer based in Sri Lanka 🇱🇰, focused on **full-stack developme
 <a href="https://wa.me/94762657472"><img src="https://img.shields.io/badge/WhatsApp-0A101F?style=for-the-badge&logo=whatsapp&logoColor=25D366&labelColor=0A101F" alt="WhatsApp" /></a>
 
 </div>
+
+---
+
+<div align="center">
+
+<sub>*Transforming ideas into scalable code, elegant user experiences and automated workflows.*</sub>
+
+<sub>⭐ Star a repo if you find it useful &nbsp;•&nbsp; Built with [a terminal-style banner](banner/) and a lot of dots</sub>
+
+</div>
