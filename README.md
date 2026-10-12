@@ -18,11 +18,21 @@ Software Engineer based in Sri Lanka 🇱🇰, focused on **full-stack developme
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,tensorflow,opencv,sklearn,php,laravel,fastapi,flask,nodejs&theme=dark&perline=9" alt="Backend and AI" />
-<br/>
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,threejs&theme=dark&perline=8" alt="Frontend" />
-<br/>
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,vercel,aws,vscode,git,github,figma&theme=dark&perline=10" alt="Data, infra and tools" />
+### 🧠 AI & Machine Learning
+<img src="https://skillicons.dev/icons?i=python,tensorflow,opencv,sklearn&theme=dark&perline=5" alt="AI/ML Stack" />
+
+### ⚡ Frontend Development
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,bootstrap,threejs&theme=dark&perline=10" alt="Frontend Frameworks" />
+
+### 🚀 Backend & Database
+<img src="https://skillicons.dev/icons?i=php,laravel,fastapi,flask,python,nodejs,mysql,postgres,mongodb,redis&theme=dark&perline=11" alt="Backend Stack" />
+
+### 🎨 Design & Graphics Tools
+<a href="https://figma.com" target="_blank"><img src="https://skillicons.dev/icons?i=figma&theme=dark" alt="Figma" /></a>
+<a href="https://canva.com" target="_blank"><img src="assets/canva.svg" width="48" height="48" alt="Canva" /></a>
+
+### 🛠️ Development Environment
+<img src="https://skillicons.dev/icons?i=vscode,git,github,npm,vite,vercel,aws&theme=dark&perline=10" alt="Dev Tools" />
 
 </div>
 
@@ -74,8 +84,10 @@ Software Engineer based in Sri Lanka 🇱🇰, focused on **full-stack developme
 
 <div align="center">
 
-<sub>*Transforming ideas into scalable code, elegant user experiences and automated workflows.*</sub>
+**⭐ Don't forget to star my repos if you find them useful! ⭐**
 
-<sub>⭐ Star a repo if you find it useful &nbsp;•&nbsp; Built with [a terminal-style banner](banner/) and a lot of dots</sub>
+*"Transforming ideas into scalable code, elegant user experiences, and automated workflows."* 📜✨
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,6,30&height=160&section=footer&text=🙏%20THANKS%20FOR%20VISITING!%20✨&fontSize=32&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Let's%20build%20amazing%20things%20together!%20🚀&descSize=18&descAlignY=55"/>
 
 </div>
