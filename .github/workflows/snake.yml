@@ -1,49 +1,32 @@
-name: Generate Profile SVGs & Snake Animation
+name: Generate Snake Animation
 
 on:
   schedule:
-    # Run every 12 hours
     - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
   generate:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-
+    timeout-minutes: 10
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Generate Snake SVGs
+      - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.SNAKE_TOKEN || secrets.GITHUB_TOKEN }}
+            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=0891B2&color_dots=#ebedf0,#a5b4fc,#818cf8,#6366f1,#0891B2
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=10B981&color_dots=#2d3343,#4b5563,#7C3AED,#A78BFA,#22D3EE
 
-      - name: Generate Fresh GitHub Stats & Language SVGs
-        run: |
-          mkdir -p dist
-          curl -s "https://github-stats-extended.vercel.app/api?username=basith-ahamad-dev&rank_icon=github&custom_title=Basith%20Ahamad%27s%20GitHub%20Stats&show_icons=true&include_all_commits=true&count_private=true&theme=codeSTACKr&t=$(date +%s)" -o dist/github-stats.svg
-          curl -s "https://github-stats-extended.vercel.app/api/top-langs/?username=basith-ahamad-dev&layout=compact&theme=codeSTACKr&count_private=true&t=$(date +%s)" -o dist/top-langs.svg
-          python scripts/update_stats.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.SNAKE_TOKEN || secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: ${{ github.repository_owner }}
-
-      - name: Push SVGs to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "Update snake animation [skip ci]"
         env:
-          GITHUB_TOKEN: ${{ secrets.SNAKE_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

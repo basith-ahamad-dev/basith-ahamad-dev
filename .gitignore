@@ -1,0 +1,10 @@
+# banner generator: keep sources + .npy data, drop renders and previews
+banner/out/
+banner/data/preview_*.png
+__pycache__/
+
+# raw photo stays local (banner/portrait.py reads it); only the dithered result is published
+assets/Professtional_Photo.png
+
+# reference PDFs
+*.pdf
